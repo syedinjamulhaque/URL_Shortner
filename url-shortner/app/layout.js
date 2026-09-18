@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${plusJakarta.variable} ${inter.variable} h-full antialiased scroll-smooth`}
     >
-      <body className="h-screen flex flex-col bg-white font-(family-name:--font-body) overflow-hidden">
+      <body className="h-dvh flex flex-col bg-white font-(family-name:--font-body) overflow-y-auto">
         <style
           dangerouslySetInnerHTML={{
             __html: `
