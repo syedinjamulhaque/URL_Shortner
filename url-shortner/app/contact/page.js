@@ -33,11 +33,11 @@ export default function Contact() {
   };
 
   return (
-    <main className="relative flex-1 bg-purple-50">
+    <main className="relative flex-1 min-h-0 bg-purple-50">
       <div className="pointer-events-none absolute -left-24 top-10 z-0 h-64 w-64 rounded-full bg-purple-400/20 blur-3xl" />
       <div className="pointer-events-none absolute -right-24 bottom-0 z-0 h-72 w-72 rounded-full bg-fuchsia-400/20 blur-3xl" />
 
-      <section className="relative z-10 flex h-full items-center justify-center overflow-hidden px-4 py-8 sm:px-6">
+      <section className="relative z-10 flex min-h-full items-center justify-center px-4 py-8 sm:px-6">
         <div className="w-full max-w-2xl">
           <div className="rounded-3xl border border-purple-200/70 bg-white/75 p-5 shadow-2xl shadow-purple-300/30 backdrop-blur-xl sm:p-8 md:p-10">
             <div className="animate-fade-in-up text-center">
