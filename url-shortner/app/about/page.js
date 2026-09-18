@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <main className="relative min-h-[calc(100vh-64px)] overflow-hidden bg-purple-50">
+    <main className="relative min-h-[calc(100vh-64px)] bg-purple-50">
       <div className="pointer-events-none absolute -left-24 top-10 z-0 h-64 w-64 rounded-full bg-purple-400/20 blur-3xl" />
       <div className="pointer-events-none absolute -right-24 bottom-0 z-0 h-72 w-72 rounded-full bg-fuchsia-400/20 blur-3xl" />
 

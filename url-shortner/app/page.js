@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="relative flex-1 overflow-hidden bg-linear-to-b from-purple-50 via-white to-purple-50">
+    <main className="relative flex-1 bg-linear-to-b from-purple-50 via-white to-purple-50">
       <div className="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-purple-300/40 blur-3xl animate-glow-pulse" />
       <div className="pointer-events-none absolute top-1/3 -right-24 h-80 w-80 rounded-full bg-fuchsia-200/40 blur-3xl animate-glow-pulse" />
       <div className="pointer-events-none absolute bottom-0 left-1/4 h-64 w-64 rounded-full bg-purple-200/30 blur-3xl" />

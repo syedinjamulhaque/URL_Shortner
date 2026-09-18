@@ -33,7 +33,7 @@ export default function Contact() {
   };
 
   return (
-    <main className="relative flex-1 overflow-hidden bg-purple-50">
+    <main className="relative flex-1 bg-purple-50">
       <div className="pointer-events-none absolute -left-24 top-10 z-0 h-64 w-64 rounded-full bg-purple-400/20 blur-3xl" />
       <div className="pointer-events-none absolute -right-24 bottom-0 z-0 h-72 w-72 rounded-full bg-fuchsia-400/20 blur-3xl" />
 
